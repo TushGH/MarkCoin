@@ -1,10 +1,5 @@
 <h3>About the Project</h3>
-It is the Block Chain based solution for maintaining a record of marks obtain by each student.
-On the Front end it has a exam module. using this module Professor can create a set of test and give its access to stundent.
-The student can anonomously ( using the public addess ) give the exam.
-Based on the scored recieved the application will transfer the appropriate amount of coins (here I am using Komoda block chain as a ledger to store transaction on public domain)
-
-
+It is the Block Chain based solution for maintaining a record of marks obtain by each student. On the Front end it has a exam module. using this module Professor can create a set of test and give its access to student. The student can anonymously ( using the public address ) give the exam. Based on the scored received the application will transfer the appropriate amount of coins (here I am using Komoda block chain as a ledger to store transaction on public domain) 
 
 <br>
 <h3>References:</h3>
