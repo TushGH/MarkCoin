@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+     <link rel="stylesheet" href="script.css">
+    <title>BitCoin Exam Project</title>
+    <style>
+    @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,800,700,300);
+    @import url(https://fonts.googleapis.com/css?family=Squada+One);
+    body {
+      padding: 20px 80px;
+      background: #eee url(https://subtlepatterns.com/patterns/extra_clean_paper.png);
+    }
+    #logo {
+      font-family: 'Open Sans', sans-serif;
+      color: #555;
+      text-decoration: none;
+      text-transform: uppercase;
+      font-size: 150px;
+      font-weight: 800;
+      letter-spacing: -3px;
+      line-height: 1;
+      text-shadow: #EDEDED 3px 2px 0;
+      position: relative;
+    }
+    #logo:after {
+
+      position: absolute;
+      left: 8px;
+      top: 32px;
+    }
+    #logo:after {
+      /*background: url(https://subtlepatterns.com/patterns/crossed_stripes.png) repeat;*/
+      background-image: -webkit-linear-gradient(left top, transparent 0%, transparent 25%, #555 25%, #555 50%, transparent 50%, transparent 75%, #555 75%);
+      background-size: 4px 4px;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      z-index: -5;
+      display: block;
+      text-shadow: none;
+    }
+
+    .form-style-8 input[type="button"],
+    .form-style-8 input[type="submit"]{
+    	-moz-box-shadow: inset 0px 1px 0px 0px #45D6D6;
+    	-webkit-box-shadow: inset 0px 1px 0px 0px #45D6D6;
+    	box-shadow: inset 0px 1px 0px 0px #45D6D6;
+    	background-color: #2CBBBB;
+    	border: 1px solid #27A0A0;
+    	display: inline-block;
+    	cursor: pointer;
+    	color: #FFFFFF;
+    	font-family: 'Open Sans Condensed', sans-serif;
+    	font-size: 14px;
+    	padding: 8px 18px;
+    	text-decoration: none;
+    	text-transform: uppercase;
+    }
+    .form-style-8 input[type="button"]:hover,
+    .form-style-8 input[type="submit"]:hover {
+    	background:linear-gradient(to bottom, #34CACA 5%, #30C9C9 100%);
+    	background-color:#34CACA;
+    }
+    .rules{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 14px;
+    padding: 8px 18px;
+    text-decoration: none;
+    }
+
+
+    .form-style-8 input[type="text"],
+    .form-style-8 input[type="date"],
+    .form-style-8 input[type="datetime"],
+    .form-style-8 input[type="email"],
+    .form-style-8 input[type="number"],
+    .form-style-8 input[type="search"],
+    .form-style-8 input[type="time"],
+    .form-style-8 input[type="url"],
+    .form-style-8 input[type="password"],
+    .form-style-8 textarea,
+    .form-style-8 select
+    {
+    	box-sizing: border-box;
+    	-webkit-box-sizing: border-box;
+    	-moz-box-sizing: border-box;
+    	outline: none;
+    	display: block;
+    	width: 100%;
+    	padding: 7px;
+    	border: none;
+    	border-bottom: 1px solid #ddd;
+    	background: transparent;
+    	margin-bottom: 10px;
+    	font: 16px Arial, Helvetica, sans-serif;
+    	height: 45px;
+    }
+</style>
+  </head>
+  <body>
+  <div id="logo">
+       BitCoin Quiz
+  </div>
+  <br><br>
+  <div class="rules">
+    <pre>
+    This are The Rules
+      1) You Can Choose From 3 topics mainly Science , Math, BitCoin
+      2) You Can bet before the quiz start.You will be played against the Server.
+         if You score above it. you will receive double the amount you bet.
+      </pre>
+  </div>
+  <div class="form-style-8">
+    <form id="myform" method="GET" action="data1.html">
+      <input type="text" name="add" placeholder="Enter Your BitCoin address" /><br>
+      <input type="number" name="amt" placeholder="BitCoin You Want To Bet" /><br>
+  <div class="Rules">
+
+  <input type="submit" value="Science"
+         onclick="document.forms['myform'].action='science.html'">
+  <input type="submit" value="Math"
+         onclick="document.forms['myform'].action='science.html'">
+  <input type="submit" value="BitCoin"
+                onclick="document.forms['myform'].action='science.html'">
+  </form>
+  </div>
+
+  </body>
+</html>

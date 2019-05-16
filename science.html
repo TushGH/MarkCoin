@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Start The Quiz</title>
+<link href ="style.css" rel ="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+<script src = "main.js"></script>
+
+<style>
+body {
+  font-family: 'Lato', sans-serif;
+
+    padding: 20px 80px;
+    background: #eee url(https://subtlepatterns.com/patterns/extra_clean_paper.png);
+
+}
+
+
+
+#quiz {
+  margin-left: 10px;
+  background: #d2def2;
+  padding: 10px 20px 10px 20px;
+  width: 400px;
+  border-radius: 20px;
+  float: left;
+
+}
+
+input {
+  margin-bottom: 20px;
+  display: block;
+}
+
+#textbox {
+  height: 25px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
+  padding-left: 5px;
+}
+
+
+#button {
+  background: green;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  color: white;
+  font-size: 16px;
+  transition-duration: .5s;
+  margin-top: 15px;
+}
+
+
+
+#button:hover {
+  background: white;
+  border: 1px solid green;
+  color: black;
+  cursor: pointer;
+
+}
+
+#after_submit {
+  visibility: hidden;
+  background: #ff5459;
+  padding: 10px 20px 10px 20px;
+  width: 400px;
+  border-radius: 20px;
+  float: left;
+  margin-left: 20px;
+  font-size: 30px;
+}
+
+#picture {
+  width: 375px;
+  height: 245px;
+}
+
+
+
+#mc {
+  display: inline;
+}
+</style>
+</head>
+
+
+<body>
+<h1>Best Of Luck</h1>
+
+
+<form id = "quiz" name = "quiz" action="/checkans">
+
+
+<p class = "questions">NaCl is the chemical formula for salt (true or false) ?</p>
+<input id = "textbox" type = "text" name = "question1">
+
+<p class = "questions">Square of 25 is 625 ? (true or false)</p>
+<input id = "textbox" type = "text" name = "question2">
+
+<p class = "questions">Blockchain is append only log? (true or false)</p>
+
+<input id = "textbox" type = "text" name = "question3">
+
+
+<input id = "but" type = "submit" value = "I'm finished!" >
+
+
+</form>
+
+<div id = "after_submit">
+<p id = "number_correct"></p>
+<p id = "message"></p>
+<img id = "picture">
+</div>
+</html>
+
+</body>
