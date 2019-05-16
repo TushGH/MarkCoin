@@ -1,13 +1,13 @@
 <h3>About the Project</h3>
 It is the Block Chain based solution for maintaining a record of marks obtain by each student.
 On the Front end it has a exam module. using this module Professor can create a set of test and give its access to stundent.
-The student can anonomously ( using the public addess ) give the test.
+The student can anonomously ( using the public addess ) give the exam.
 Based on the scored recieved the application will transfer the appropriate amount of coins (here I am using Komoda block chain as a ledger to store transaction on public domain)
 
 
 
-
-References:
+<br>
+<h3>References:</h3>
 
 1) Access Get Data in Express node js ( tutorial series for node js)<br>
 ref: https://www.youtube.com/watch?v=QTAYRmMsVCI&list=PL4cUxeGkcC9gcy9lrvMJ75z9maRw4byYp&index=30&t=0s<br>
